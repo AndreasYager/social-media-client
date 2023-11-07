@@ -4,7 +4,7 @@
   "description": "Test",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write 'src/**/*.js'",
+    "format": "prettier --w 'src/**/*.js'",
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server",
     "lint": "eslint src/**/*.js",
